@@ -82,6 +82,9 @@ msgid ""
 "CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, AND "
 "YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION."
 msgstr ""
+"어떤 시스템도 찾을 수 없습니다!\n"
+"시스템 구성 파일 경로가 정확한지 확인하세요."
+"게임 디렉토리에는 적어도 하나의 게임과 올바른 확장이 있습니다."
 
 #, c-format
 msgid "%i GAME SUCCESSFULLY SCRAPED!"
@@ -97,22 +100,22 @@ msgid "OK"
 msgstr "확인"
 
 msgid "INSTALL BATOCERA"
-msgstr ""
+msgstr "바세토라 설치"
 
 msgid "TARGET DEVICE"
-msgstr ""
+msgstr "목표 장치"
 
 msgid "TARGET ARCHITECTURE"
-msgstr ""
+msgstr "목표 아키텍쳐"
 
 msgid "VALIDATION"
-msgstr ""
+msgstr "확인"
 
 msgid "YES, I'M SURE"
-msgstr ""
+msgstr "네, 확실합니다"
 
 msgid "INSTALL"
-msgstr ""
+msgstr "설치"
 
 msgid "BACK"
 msgstr "뒤로"
@@ -158,7 +161,7 @@ msgid "SYSTEM SETTINGS"
 msgstr "시스템 설정"
 
 msgid "INFORMATION"
-msgstr ""
+msgstr "정보"
 
 msgid "VERSION"
 msgstr "버전"
@@ -167,16 +170,16 @@ msgid "DISK USAGE"
 msgstr "디스크 사용량"
 
 msgid "CREATE A SUPPORT FILE ?"
-msgstr ""
+msgstr "지원 파일을 만드시겠습니까?"
 
 msgid "FILE GENERATED SUCCESSFULLY"
-msgstr ""
+msgstr "파일이 성공적으로 생성되었습니다."
 
 msgid "FILE GENERATION FAILED"
-msgstr ""
+msgstr "파일 생성이 실패했습니다."
 
 msgid "CREATE A SUPPORT FILE"
-msgstr ""
+msgstr "지원 파일을 만듭니다."
 
 msgid "STORAGE DEVICE"
 msgstr "저장 장치"
@@ -197,7 +200,7 @@ msgid "HIGH (950Mhz)"
 msgstr "높음 (950Mhz) "
 
 msgid "NONE"
-msgstr "없음 "
+msgstr "없음"
 
 msgid "HIGH (1050Mhz)"
 msgstr "높음 (1050Mhz) "
@@ -206,13 +209,13 @@ msgid "NONE (900Mhz)"
 msgstr "없음 (900Mhz) "
 
 msgid "EXTREM (1350Mhz)"
-msgstr ""
+msgstr "익스트림 (1350Mhz)""
 
 msgid "TURBO (1325Mhz)+"
-msgstr ""
+msgstr "터보 (1325Mhz)+"
 
 msgid "HIGH (1300Mhz)"
-msgstr ""
+msgstr "높음 (1300Mhz)""
 
 msgid "NONE (1200Mhz)"
 msgstr "없음 (1200Mhz) "
@@ -227,7 +230,7 @@ msgid "START UPDATE"
 msgstr "업데이트 시작"
 
 msgid "BACKUP USER DATA"
-msgstr ""
+msgstr "사용자 데이터 백업"
 
 msgid "KODI SETTINGS"
 msgstr "KODI 설정"
@@ -242,7 +245,7 @@ msgid "START KODI WITH X"
 msgstr "X 버튼으로 KODI 실행"
 
 msgid "INSTALL BATOCERA ON A NEW DISK"
-msgstr ""
+msgstr "새 디스크에 바토세라를 설치"
 
 msgid "SECURITY"
 msgstr "보안"
@@ -281,7 +284,7 @@ msgid "RETRO"
 msgstr "레트로"
 
 msgid "INTEGER SCALE (PIXEL PERFECT)"
-msgstr ""
+msgstr "정수 비율 (픽셀 완성)"
 
 msgid "RETROACHIEVEMENTS SETTINGS"
 msgstr "레트로 도전 과제 설정"
@@ -299,13 +302,13 @@ msgid "PASSWORD"
 msgstr "비밀번호"
 
 msgid "MISSING BIOS"
-msgstr ""
+msgstr "바이오스 누락"
 
 msgid "NO MISSING BIOS"
-msgstr ""
+msgstr "누락 바이오스가 없습니다."
 
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 msgid "STATUS"
 msgstr "상태"
@@ -326,7 +329,7 @@ msgid "UI SETTINGS"
 msgstr "사용자 인터페이스 설정"
 
 msgid "VIDEO OUTPUT"
-msgstr ""
+msgstr "비디오출력"
 
 msgid "OVERSCAN"
 msgstr "오버 스캔"
@@ -368,7 +371,7 @@ msgid "OUTPUT DEVICE"
 msgstr "출력 기기"
 
 msgid "YOU NEED TO REBOOT THE SYSTEM TO COMPLETLY APPLY THIS OPTION."
-msgstr ""
+msgstr "이 옵션을 완전하게 적용하려면 시스템을 재부팅해야합니다."
 
 msgid "NETWORK SETTINGS"
 msgstr "네트워크 설정"
@@ -401,13 +404,13 @@ msgid "WIFI CONFIGURATION ERROR"
 msgstr "WIFI 구성 오류"
 
 msgid "REALLY SCRAPE?"
-msgstr ""
+msgstr "정말로 스크랩하시겠습니까?"
 
 msgid "AUTOMATIC SCRAPER"
-msgstr ""
+msgstr "자동 스크랩"
 
 msgid "MANUAL SCRAPER"
-msgstr ""
+msgstr "수동 스크랩"
 
 msgid "SCRAPE FROM"
 msgstr "스크랩 출처"
@@ -452,9 +455,9 @@ msgid ""
 "ALL BUTTONS YOU DO NOT HAVE BY HOLDING A KEY. BUTTONS NAMES ARE BASED ON THE "
 "SNES CONTROLLER."
 msgstr ""
-"컨트롤러 설정을 시작합니다. 조이스틱이 한 개 뿐이라면, 방향키만 설정한다음 아"
-"무 버튼이나 길게 눌러 나머지 설정을 건너뛰십시오. 단축키에 설정할 버튼이 모자"
-"랄 경우, 셀렉트 버튼을 선택합니다. 해당사항이 없는 버튼은 아무 버튼이나 길게 "
+"컨트롤러 설정을 시작합니다. 조이스틱이 한 개 뿐이라면, 방향키만 설정한 다음"
+"아무 버튼이나 길게 눌러 나머지 설정을 건너뛰십시오. 단축키에 설정할 버튼이"
+"모자랄 경우, 셀렉트 버튼을 선택합니다. 해당사항이 없는 버튼은 아무 버튼이나 길게"
 "누르면 해당 버튼을 설정하지 않고 건너뛸 수 있습니다. 버튼 이름은 슈퍼패미컴 "
 "컨트롤러 기준입니다."
 
@@ -539,8 +542,9 @@ msgid ""
 "MAY BE EVEN MORE INACCURATE THAN USUAL!\n"
 "CONTINUE ANYWAY?"
 msgstr ""
-"경고: 선택한 시스템 중 일부는 플랫폼 셋이 없습니다. 스크랩 정확도가 낮을 수 "
-"있습니다. 계속 하시겠습니까?"
+"경고: 선택한 시스템 중 일부는 플랫폼 셋이 없습니다."
+"결과가 일반적인 것보다 더 부정확 할 수 있습니다!\n" 
+"계속 하시겠습니까?"
 
 msgid "NO GAMES FIT THAT CRITERIA."
 msgstr "조건에 맞는 게임이 없습니다."
@@ -558,7 +562,7 @@ msgid "NO UPDATE AVAILABLE"
 msgstr "사용 가능한 업데이트 없음"
 
 msgid "FINNISHED"
-msgstr ""
+msgstr "완료"
 
 msgid "enter emulator"
 msgstr "에뮬레이터 선택"
@@ -666,7 +670,7 @@ msgstr[0] "%i 개의 즐겨찾기"
 #, c-format
 msgid "%i GAME HIDDEN"
 msgid_plural "%i GAMES HIDDEN"
-msgstr[0] ""
+msgstr[0] "%i 숨겨진 게임"
 
 msgid "SCROLL"
 msgstr "스크롤"
@@ -902,7 +906,7 @@ msgstr "잠시 기다려 주십시오..."
 #~ msgstr "HDMI"
 
 #~ msgid "JACK"
-#~ msgstr "JACK"
+#~ msgstr "잭"
 
 #~ msgid "AUTO"
 #~ msgstr "자동"
